@@ -1,0 +1,217 @@
+print("-------------------------WELCOME TO QUIZ--------------------------")
+count=0
+
+name=input("ENTER YOUR NAME :- \n")
+
+print("\n ************* THIS IA AN KNOWLEDGE BASED PYTHON QUIZ **********")
+
+
+print("\n\nQuestion1: Which among them is used to create an object?")
+print("OPTIONS: A - A class")
+print("         B - A function")
+print("         C - A method")
+print("         D - A constructor ")
+answer=input(">>  ")
+
+if(answer=='D' or answer=='d'):
+    count=count+1
+else:
+    pass
+
+
+print("\nQuestion2: Which one of these is floor division?")
+print("OPTIONS:  A - /")
+print("          B - //")
+print("          C - %")
+print("          D - None of the mentioned ")
+answer=input(">> ")
+
+if(answer=='b' or answer=='B'):
+    count=count+1
+else:
+    pass
+
+print("\nQuestion3: Which of the following expressions is an example of type conversion?")
+print("OPTIONS: A - 4.0 + float(3)")
+print("         B - 5.3 + 6.3")
+print("         C - 5.0 + 3")
+print("         D - 3+7 ")
+answer=input(">> ")
+
+if(answer=='a' or answer=='A'):
+    count=count+1
+else:
+    pass
+
+print("\nQuestion4: What is the output of the following code?")
+print(">>> list=['a','b','c']")
+print(">>> list+='de'")
+print(">>> list")
+print("OPTIONS: A - [‘a’, ‘b’, ‘c’, ‘d’, ‘e’]")
+print("         B - [‘a’, ‘b’, ‘c’, ‘de’]")
+print("         C - [‘ade’, ‘bde’, ‘cde’]")
+print("         D - This raises an exception because we cannot add a string to a list")
+answer=input(">> ")
+
+if(answer=='b' or answer=='B'):
+    count=count+1
+else:
+    pass
+
+print("\nQuestion5: Which of the following is the use of id() function in python?")
+print("OPTIONS: A - Every object doesn’t have a unique id")
+print("         B - Id returns the identity of the object")
+print("         C - All of the mentioned")
+print("         D - None of the mentioned")
+answer=input(">> ")
+
+if(answer=='b' or answer=='B'):
+    count=count+1
+else:
+    pass
+
+print("\nQuestion6: Which keyword is use for function?")
+print("OPTIONS: A - define")
+print("         B - fun")
+print("         C - def")
+print("         D - function")
+answer=input(">> ")
+
+if(answer=='c' or answer=='C'):
+    count=count+1
+else:
+    pass
+
+print("\nQuestion7: Which of the following function headers is correct?")
+print("OPTIONS: A - def fun(a = 2, b = 3, c)")
+print("         B - def fun(a = 2, b, c = 3)")
+print("         C - def fun(a, b = 2, c = 3)")
+print("         D - def fun(a, b, c = 3, d)")
+answer=input(">> ")
+
+if(answer=='c' or answer=='C'):
+    count=count+1
+else:
+    pass
+
+print("\nQuestion8: In which part of memory does the system stores the parameter and local variables of funtion call?")
+print("OPTIONS: A - heap")
+print("         B - stack")
+print("         C - Uninitialized data segment")
+print("         D - None of the above")
+answer=input(">> ")
+
+
+if(answer=='b' or answer=='B'):
+    count=count+1
+else:
+    pass
+
+print("\nQuestion9: Which of the following function gets a space-padded string with the original string left-justified to a total of width columns?")
+print("OPTIONS: A - isupper()")
+print("         B - join(seq)")
+print("         C - len(string)")
+print("         D - ljust(width[, fillchar])")
+answer=input(">> ")
+
+if(answer=='d' or answer=='D'):
+    count=count+1
+else:
+    pass
+
+print("\nQuestion 10 :  Which of the following function convert an object to a string in python?")
+print("OPTIONS: A - int(x [,base])")
+print("         B - long(x [,base])")
+print("         C - float(x)")
+print("         D - str(x)")
+answer=input(">> ")
+
+if(answer=='d' or answer=='D'):
+    count=count+1
+else:
+    pass
+
+print("\nQuestion 11: Which Of the following is not python's predefined data type")
+print("OPTIONS: A - Class")
+print("         B - Dictionary")
+print("         C - Tuple")
+print("         D - List")
+answer=input(">> ")
+
+if(answer=='a' or answer=='A'):
+    count=count+1
+else:
+    pass
+
+print("\nQuestion 12: What is the return type of function id")
+print("OPTIONS: A - Float")
+print("         B - int")
+print("         C - Dict")
+print("         D - Bool")
+answer=input(">> ")
+
+if(answer=='b' or answer=='B'):
+    count=count+1
+else:
+    pass
+
+print("\nQuestion 13: To include the use of functions which are present in the random library, we must use the option:")
+print("OPTIONS: A - import random")
+print("         B - random.h")
+print("         C - import.random")
+print("         D - random.random")
+answer=input(">> ")
+
+if(answer=='a' or answer=='A'):
+    count=count+1
+else:
+    pass
+
+print("\nQuestion 14: What will be the output of following Python code?")
+print(">>> set1={2,5,3}")
+print(">>> set2={3,1}")
+print(">>> set3={}")
+print(">>> set3=set1&set2")
+print(">>> print(set3)")
+print("OPTIONS: A - {2,5,1}")
+print("         B - {}")
+print("         C - {2,5,3,1}")
+print("         D _ {3}")
+answer=input(">> ")
+
+if(answer=='D' or answer=='d'):
+    count=count+1
+else:
+    pass
+
+print("\nQuestion 15:What will be the output of below Python code?")
+print(">>> class Student:")
+print(">>>        def __init__(self,name,id):")
+print(">>>              self.name=name")
+print(">>>              self.id=id")
+print(">>>      		print(self.id)")
+print(">>> std=Student('Simon',1)")
+print(">>> std.id=2")
+print(">>> print(std.id)")
+print("OPTIONS: A - 1   1")
+print("         B - 1   2")
+print("         C - 2   1")
+print("         D - 2   2")
+answer=input(">> ")
+
+if(answer=='b' or answer=='B'):
+    count=count+1
+else:
+    pass
+
+
+print("\n\n ***************  QUIZ COMPLETED *******************   ")
+marks=count
+
+if(marks<8):
+    print("\n Your Fail")
+else:
+    print("\n Your Pass")
+
+print("\n Your Total Score Is : ")
+print(marks)
